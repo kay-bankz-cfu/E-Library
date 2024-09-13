@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.ibadan {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+    background-color: rgba(133, 177, 235, 0.938);
+    align-items: center;
+    padding: 28px;
+    border-bottom: 2px solid white;
+}
+.ibadan a{
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.ibadan a:hover{
+    border-bottom: 2px solid rgb(75, 99, 151);
+}

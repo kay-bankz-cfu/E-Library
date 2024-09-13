@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.libraries-container-1{
+    padding: 40px;
+}
+.libraries-container-2{
+    padding: 30px;
+    background-color: rgba(97, 97, 255, 0.466);
+}
+.edu_flex{
+    display: grid;
+    grid-template-columns: 175px 300px;
+    gap: 30px;
+}
+.content-container{
+    /* background-color: white; */
+}

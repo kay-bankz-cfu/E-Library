@@ -1,0 +1,34 @@
+.bg {
+    /* margin: 40px; */
+    /* border: 5px solid; */
+}
+.three{
+    position: relative;
+}
+.three img{
+    border-radius: 15px;
+}
+.sus1{
+    color: white;
+    font-size: 18px;
+    background-color: rgba(182, 182, 182, 0.288);
+    padding: 8px;
+    position: absolute;
+    top: 180px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.sus2{
+    font-size: 22px;
+}
+.offer{
+    color: rgba(110, 107, 107, 0.904);
+}
+.btn{
+    padding: 8px;
+    background-color: rgba(28, 123, 231, 0.884);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0px;
+}
