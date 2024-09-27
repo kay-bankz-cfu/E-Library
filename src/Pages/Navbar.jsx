@@ -11,10 +11,10 @@ function Navbar(props){
           <div>
             <a href="homepage">Home</a>
             <a href="libraries">Libraries</a>
-            <a href="#">Topics</a>
-            <a href="#">Lists</a>
-            <a href="#">About</a>
-            <a href="#">For Librarians</a>
+            <a href="topics">Topics</a>
+            <a href="list">Lists</a>
+            <a href="about">About</a>
+            <a href="librarians">For Librarians</a>
           </div>
           <div>
             <i>

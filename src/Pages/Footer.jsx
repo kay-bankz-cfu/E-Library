@@ -34,24 +34,24 @@ function Footer(props) {
           </h5>
           <ul className="footer-button">
             <li>
-              <a href="#">Home</a>
+              <a href="homepage">Home</a>
             </li>
             <li>
-              <a href="#">Libraries</a>
+              <a href="/libraries">Libraries</a>
             </li>
             <li>
-              <a href="#">Topics</a>
+              <a href="topics">Topics</a>
             </li>
             <li>
-              <a href="#">Lists</a>
+              <a href="list">Lists</a>
             </li>
           </ul>
           <ul className="footer-button">
             <li>
-              <a href="#">About</a>
+              <a href="about">About</a>
             </li>
             <li>
-              <a href="#">For Librarians</a>
+              <a href="librarians">For Librarians</a>
             </li>
             <li>
               <a href="#">Help & FAQ</a>

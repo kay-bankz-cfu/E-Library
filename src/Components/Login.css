@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.whole-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+#form-container{
+    padding: 10px;
+    /* align-items: center; */
+    border: 2px solid;
+    margin: auto;
+}

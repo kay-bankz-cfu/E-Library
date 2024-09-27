@@ -5,7 +5,12 @@ import Sustainability from "./Sustainability";
 import Footer from "./footer";
 import Discover from "./Discover";
 import Libraries from "./Libraries";
+import Topics from "./Topics";
+import List from "./List";
+import About from "./About";
+import Librarians from "./Librarians";
 import signup from "../Components/Signup";
+import Login from "../components/Login";
 import { Link } from "react-router-dom";
 import { FaCaretDown } from "react-icons/fa";
 import { FaRegPaperPlane } from "react-icons/fa";
@@ -26,7 +31,7 @@ function Home() {
           </h1>
           <div className="create">
             <a href="signup">Create Account</a>
-            <a href="#">SIgn In</a>
+            <a href="login">SIgn In</a>
           </div>
         </div>
         <Navbar />
@@ -357,68 +362,78 @@ function Home() {
           </div>
         </section>
         <hr />
-        <div>
+        {/*  */}
+        <div className="popular">
           <p className="exp">Popular WorldCat.org user lists</p>
-          <div className="women">
+          <div className="women-in-sport">
             <a href="#">
+
               <img
                 src="/library.jpg"
                 alt=""
                 style={{ width: "90%", height: "120px" }}
               />
-              <p>Women in sports</p>
-              <div>
-                With the olympic and the women's world cup
-                <br />
-                coming up, female athletes are taking the
-                <br />
-                sports world by storm. Jump into theses
-                <br />
-                books featuring the stories of inspirational
-                <br />
-                females athletes and their decition to the...
+              <div className="in-sport-bg">
+                <p>Women in sports</p>
+                <div>
+                  With the olympic and the women's world cup
+                  <br />
+                  coming up, female athletes are taking the
+                  <br />
+                  sports world by storm. Jump into theses
+                  <br />
+                  books featuring the stories of inspirational
+                  <br />
+                  females athletes and their decition to the...
+                </div>
+                <div className="empty"></div>
               </div>
-              <div className="empty"></div>
             </a>
             <a href="#">
-              <img
-                src="/library.jpg"
-                alt=""
-                style={{ width: "80%", height: "120px" }}
-              />
-              <p>Women in sports</p>
-              <div>
-                With the olympic and the women's world cup
-                <br />
-                coming up, female athletes are taking the
-                <br />
-                sports world by storm. Jump into theses
-                <br />
-                books featuring the stories of inspirational
-                <br />
-                females athletes and their decition to the...
-              </div>
-              <div className="empty"></div>
-            </a>
-            <a href="#">
+
               <img
                 src="/library.jpg"
                 alt=""
                 style={{ width: "90%", height: "120px" }}
               />
-              <p>Women in sports</p>
-              <div>
-                With the olympic and the women's world cup
-                <br />
-                coming up, female athletes are taking the
-                <br />
-                sports world by storm. Jump into theses
-                <br />
-                books featuring the stories of inspirational
-                <br />
-                females athletes and their decition to the...
+              <div className="in-sport-bg">
+                <p>Women in sports</p>
+                <div>
+                  With the olympic and the women's world cup
+                  <br />
+                  coming up, female athletes are taking the
+                  <br />
+                  sports world by storm. Jump into theses
+                  <br />
+                  books featuring the stories of inspirational
+                  <br />
+                  females athletes and their decition to the...
+                </div>
+                <div className="empty"></div>
               </div>
-              <div className="empty"></div>
+            </a>
+            <a href="#">
+
+              <img
+                src="/library.jpg"
+                alt=""
+                style={{ width: "90%", height: "120px" }}
+              />
+              <div className="in-sport-bg">
+                <p>Women in sports</p>
+                <div>
+                  With the olympic and the women's world cup
+                  <br />
+                  coming up, female athletes are taking the
+                  <br />
+                  sports world by storm. Jump into theses
+                  <br />
+                  books featuring the stories of inspirational
+                  <br />
+                  females athletes and their decition to the...
+                </div>
+                <div className="empty"></div>
+              </div>
             </a>
           </div>
         </div>

@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+.Topicsbooks{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 370px;
+    margin: 30px 0px 30px 0px;
+    background-color: white;
+    border-radius: 20px;
+}
+.Topicsbooks img{
+    padding-bottom: 20px;
+}
+.Topicsbooks a{
+    padding: 0px 0px 0px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(45, 142, 221, 0.918);
+}
+.Topicsbooks p{
+    padding: 15px 0px 30px 15px;
+    color: gray;
+    font-size: 15px;
+}
+.Topicsbooks button{
+    margin: 20px 0px 0px 15px;
+    color: rgba(42, 148, 235, 0.781);
+    background-color: transparent;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.topic-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
