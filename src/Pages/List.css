@@ -1,0 +1,111 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+.background-photo{
+    background-image: linear-gradient(rgba(160, 22, 160, 0.705), rgba(121, 77, 209, 0.699)), url("bookshelf.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+}
+.list{
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 25px 0px 40px 0px;
+}
+.list-2{
+    background-color: white;
+    width: 100%;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* align-items: center; */
+    font-size: 14px;
+    /* color: red; */
+    padding: 25px 0px 40px 20px;
+}
+.list p{
+    text-align: justify;
+}
+/* .woman{
+    margin: auto;
+    text-align: center;
+}
+.woman a{
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgba(90, 90, 214, 0.877);
+}
+.woman p{
+    font-size: 17px;
+    color: rgb(77, 77, 77);
+} */
+.books{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* margin: 30px; */
+    margin-top: 35px;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding-bottom: 70px;
+}
+.books a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(93, 93, 226);
+}
+.books a:hover{
+    text-decoration: underline;
+}
+.carly{
+    font-weight: lighter;
+    color: rgb(77, 77, 77);
+}
+.young-readers-bg{
+    background-color: rgba(226, 226, 226, 0.342);
+    padding: 50px 0px 70px 0px;
+}
+
+
+@media screen and (max-width:789px) {
+    .list p{
+        text-align: justify;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:630px) {
+    .list p{
+        text-align: justify;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:541px) {
+    .list p{
+        text-align: justify;
+        font-size: 7px;
+    }
+    .list-2{
+        background-color: white;
+        width: 100%;
+        /* margin: 0 auto; */
+        /* text-align: center; */
+        /* align-items: center; */
+        font-size: 10px;
+        /* color: red; */
+        padding: 25px 0px 40px 20px;
+    }
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.discover-container{
+    padding: 10px;
+    border: 1.5px solid #9ac0e6;
+    background-color: rgba(230, 240, 240, 0.384);
+    margin: 10px 50px;
+}
+.libraries-container-2{
+    padding:15px 30px;
+    /* background-color: rgba(97, 97, 255, 0.466); */
+}
+.edu_flex{
+    display: grid;
+    grid-template-columns: 175px 300px;
+    gap: 30px;
+}
+.content-container{
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+}

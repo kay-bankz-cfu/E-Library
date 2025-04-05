@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+.Topicsbooks{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 370px;
+    margin: 30px 0px 30px 0px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(200, 199, 199, 0.797);
+}
+.Topicsbooks img{
+    padding-bottom: 20px;
+}
+.Topicsbooks a{
+    /* border: 3px solid red; */
+    padding: 0px 0px 0px 15px;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgba(45, 142, 221, 0.918);
+}
+.Topicsbooks p{
+    padding: 15px 0px 30px 15px;
+    color: gray;
+    font-size: 14px;
+}
+.Topicsbooks button{
+    margin: 20px 0px 0px 15px;
+    color: rgba(42, 148, 235, 0.781);
+    background-color: transparent;
+    border: 0px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.topic-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+
+@media screen and (max-width:745px){
+    .Topicsbooks a{
+        /* border: 3px solid red; */
+        padding: 0px 0px 0px 15px;
+        font-size: 15px;
+        text-decoration: none;
+        color: rgba(45, 142, 221, 0.918);
+    }
+    .Topicsbooks button{
+        margin: 20px 0px 0px 15px;
+        color: rgba(42, 148, 235, 0.781);
+        background-color: transparent;
+        border: 0px;
+        font-size: 9px;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width:553px) {
+    .Topicsbooks button{
+        margin: 20px 0px 0px 15px;
+        color: rgba(42, 148, 235, 0.781);
+        background-color: transparent;
+        border: 0px;
+        font-size: 10px;
+        /* font-weight: 600; */
+    }
+    .Topicsbooks a{
+        /* border: 3px solid red; */
+        padding: 0px 0px 0px 15px;
+        font-size: 13px;
+        text-decoration: none;
+        color: rgba(45, 142, 221, 0.918);
+    }
+    .topic-products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+    
+}
+
+@media screen and (max-width:335px) {
+    .Topicsbooks a{
+        /* border: 3px solid red; */
+        padding: 0px 0px 0px 15px;
+        font-size: 10px;
+        text-decoration: none;
+        color: rgba(45, 142, 221, 0.918);
+    }
+}

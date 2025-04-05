@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.all{
+    background-color: rgba(230, 230, 230, 0.24);
+}
+.background{
+    background-image: linear-gradient(springgreen, rgba(24, 58, 24, 0.466)), url("book4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    padding-top: 5rem;
+    height: 250px;
+    text-align: center;
+    font-size: 45px;
+}
+.bg-img-buttom-content{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.bg-img-buttom-content p{
+    margin: auto;
+}
+.topic-products{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width:731px) {
+    .bg-img-buttom-content{
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:553px) {
+    .bg-img-buttom-content{
+        padding: 10px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:375px) {
+    .bg-img-buttom-content{
+        padding: 10px;
+        font-size: 8px;
+        text-align: center;
+    }
+}
